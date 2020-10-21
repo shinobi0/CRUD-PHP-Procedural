@@ -1,0 +1,165 @@
+body{
+  color: #7e8085;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+.imgHome{
+    width:100%;
+}
+.header{
+	height: 750px;
+ 	background-image: url(../img/voiture-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-attachment: fixed;*/
+}
+
+.loader {
+  border: 16px solid #343A40;
+  border-radius: 50%;
+  border-top: 16px solid #FFC107;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#loaderContainer {
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.d-none {
+	display: none !important;
+}
+
+/* Add the below transitions to allow a smooth color change similar to lyft */
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+    background: rgba(255,255,255, 0.3) !important;
+    
+}
+
+/* .card-profil{
+  width: 100% !important;
+  background: linear-gradient(#E5E7E9, #B2BABB)!important;
+  border:0px;
+  /*background-image: linear-gradient(62deg, #f8f9fa 0%, #f8f9fa 100%);
+} */
+
+.photoProfil{
+  width: 20% !important;
+  margin: auto;
+}
+
+.card-img-top{
+  width: 100%;
+}
+
+footer{
+  background-color:#343A40;
+}
+
+.titreProfil{
+margin-top: 6rem !important;
+margin-bottom: 3rem !important;
+}
+
+.btn-download{
+margin: auto;
+}
+
+.icon-footer{
+  font-size: 30px !important;
+  margin :10px;
+}
+
+.fa-phone-alt, .fa-envelope{
+  margin:10px;
+}
+
+.imgAccroche{
+  width: 75%;
+}
+
+.accroche{
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
+.titreHome{
+  font-size: 40px;
+  text-align: center;
+  color: #371C5F;
+  margin-top: 30px;
+}
+
+.sousTitreHome{
+  font-size: 20px;
+  text-align: center;
+  color:#97A3F5;
+  margin-bottom: 50px;
+}
+
+.zoneContact{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #D6EAF8;
+  height: 150px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+
+}
+.textAccroche{
+  font-size: 20px;
+  color: #371C5F;
+}
+
+.btnContact{
+  justify-content: end; 
+}
+.titreContact{
+  margin-top: 100px;
+}
+#formulaire{
+  margin-top: 100px !important;
+}
+.titreConnexion{
+  font-size: 40px;
+  text-align: center;
+  color: #371C5F;
+  margin-top: 60px;
+}
+
+.formConnexion{
+  margin-bottom:40px;
+}
